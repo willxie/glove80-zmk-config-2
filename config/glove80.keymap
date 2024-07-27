@@ -20,7 +20,7 @@
 #define FACTORY_TEST 3
 
 
-#define DEFAULT 0
+// #define DEFAULT 0
 #define GAM 1
 #define LWR 2
 #define ADJ 3
