@@ -131,16 +131,16 @@
             >;
         };
 
-    //     lower_layer {
-    //         bindings = <
-    //    &kp C_BRI_DN   &kp C_BRI_UP      &kp C_PREV      &kp C_NEXT         &kp C_PP                                                                     &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP &none      &kp PAUSE_BREAK
-    //    &kp TILDE      &kp F1            &kp F2          &kp F3             &kp F4           &kp F5                                                      &kp F6      &kp F7        &kp F8       &kp F9     &kp F10 &kp F11
-    //    &trans         &kp C_PP          &kp C_PREV      &kp C_NEXT         &none            &kp END                                                     &trans      &trans        &trans       &kp F11    &kp F12 &kp BSLH
-    //    &trans         &kp C_MUTE        &kp C_VOL_DN    &kp C_VOL_UP       &kp RIGHT_ARROW  &kp PG_UP                                                   &kp LEFT    &kp DOWN      &kp UP       &kp RIGHT  &kp KP_PLUS            &none
-    //    &trans         &trans            &kp F14         &kp F15            &kp F12          &kp PG_DN  &mo ADJ &trans  &mo ADJ &mo ADJ &trans  &mo ADJ  &kp COMMA   &kp KP_N1     &kp KP_N2    &kp KP_N3  &kp KP_ENTER           &trans
-    //    &none          &kp CAPS          &kp INS         &kp F11            &kp F12                     &trans  &trans  &trans  &trans  &kp DEL &trans               &kp KP_N0     &kp KP_N0    &kp KP_DOT &kp KP_ENTER           &trans
-    //         >;
-    //     };
+        lower_layer {
+            bindings = <
+       &kp C_BRI_DN   &kp C_BRI_UP      &kp C_PREV      &kp C_NEXT         &kp C_PP                                                                     &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP &none      &kp PAUSE_BREAK
+       &kp TILDE      &kp F1            &kp F2          &kp F3             &kp F4           &kp F5                                                      &kp F6      &kp F7        &kp F8       &kp F9     &kp F10 &kp F11
+       &trans         &kp C_PP          &kp C_PREV      &kp C_NEXT         &none            &kp END                                                     &trans      &trans        &trans       &kp F11    &kp F12 &kp BSLH
+       &trans         &kp C_MUTE        &kp C_VOL_DN    &kp C_VOL_UP       &kp RIGHT_ARROW  &kp PG_UP                                                   &kp LEFT    &kp DOWN      &kp UP       &kp RIGHT  &kp KP_PLUS            &none
+       &trans         &trans            &kp F14         &kp F15            &kp F12          &kp PG_DN  &mo ADJ &trans  &mo ADJ &mo ADJ &trans  &mo ADJ  &kp COMMA   &kp KP_N1     &kp KP_N2    &kp KP_N3  &kp KP_ENTER           &trans
+       &none          &kp CAPS          &kp INS         &kp F11            &kp F12                     &trans  &trans  &trans  &trans  &kp DEL &trans               &kp KP_N0     &kp KP_N0    &kp KP_DOT &kp KP_ENTER           &trans
+            >;
+        };
 
     //     adjust_layer {
     //         bindings = <
